@@ -1,3 +1,18 @@
 {
-    "users" : []
+  "users": [
+    {
+      "id": "aec0",
+      "name": "Ahmed ",
+      "email": "ahmedabdirahmanibrahim4167@gmail.com",
+      "phone": "+254 740 787247",
+      "message": "nnn"
+    },
+    {
+      "id": "39da",
+      "name": "Ahmed ",
+      "email": "cabdishakouryusuf@gmail.com",
+      "phone": "+254740787245",
+      "message": "muslim wa warera"
+    }
+  ]
 }
