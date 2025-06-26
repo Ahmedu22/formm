@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     message: document.getElementById('editMessage').value.trim()
                 };
 
-                fetch(${apiUrl}/${currentEditingId}, {
+                fetch(`${apiUrl}/${currentEditingId}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json'
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     return;
                 }
 
-                fetch(${apiUrl}/${id}, {
+                fetch(`${apiUrl}/${id}`, {
                     method: 'DELETE'
                 })
                 .then(response => {
